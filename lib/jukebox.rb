@@ -54,6 +54,5 @@ def run
   input = gets.chomp
   if input == 'exit'
     exit_jukebox
-    break
   end
 end
