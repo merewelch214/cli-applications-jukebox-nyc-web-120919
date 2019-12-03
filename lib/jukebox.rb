@@ -54,5 +54,7 @@ def run(arg)
   input = gets.chomp
   if input == 'exit'
     exit_jukebox
+  elsif input == 'help'
+    help
   end
 end
